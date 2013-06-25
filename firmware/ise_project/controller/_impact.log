@@ -1,0 +1,224 @@
+iMPACT Version: 14.3
+
+iMPACT log file Started on Sun Apr 28 14:38:12 2013
+
+Welcome to iMPACT
+iMPACT Version: 14.3
+// *** BATCH CMD : loadProjectFile -file "E:\ISE\14.3\auto_project.ipf"
+'1': Loading file 'C:\controller\top.bit' ...
+INFO:iMPACT - Elapsed time =      0 sec.
+done.
+INFO:iMPACT:501 - '1': Added Device xc6slx25 successfully.
+----------------------------------------------------------------------
+'1': Added Device 1M successfully.
+----------------------------------------------------------------------
+Active mode is PFF
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setCurrentDesign -version 0
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setCurrentDeviceChain -index 0
+// *** BATCH CMD : setSubmode -pffspi
+// *** BATCH CMD : setMode -pff
+------------------------  GUI: Wizard Data Report  ---------------------------
+      Compression : false
+      Fill Value : FF
+      Output Format : mcs
+      Swap Bits : false
+      LoadDirection : UP
+      PROM Basename : ise_prom
+      File Location : C:\controller/
+      Auto Select : false
+      Number of Revisions : 1
+      Number of PROMs : 1
+      PROM Name : 1M   PROM Size : 1048576 bits
+        ------ Revision: 0 '0', 1 device(s) chain -----
+        Device 0, pn=xc6slx25   fn=top.bit
+-------------------------- END of Report ----------------------------
+// *** BATCH CMD : setMode -pff
+Project: 'E:\ISE\14.3\auto_project.ipf' loaded.
+// *** BATCH CMD : setCurrentDesign -version 0
+// *** BATCH CMD : setCurrentDeviceChain -index 0
+// *** BATCH CMD : setCurrentDesign -version 0
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : saveArchive -file "ise.iaf" -dir "E:\ISE"
+Current working directory is E:\ISE.
+zip -r -q "ise.iaf" "ise"
+Remove temp directory E:\ISE/ise
+Finish creating archive file.
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : saveProjectFile -file "E:\ISE\14.3\auto_project.ipf"
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : deletePromDevice -position 1
+// *** BATCH CMD : setCurrentDesign -version 0
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : deleteDesign -version 0
+// *** BATCH CMD : setCurrentDesign -version -1
+Welcome to iMPACT
+iMPACT Version: 14.3
+Project: 'E:\ISE\14.3\\auto_project.ipf' already exists.
+Original project has been renamed to 'E:\ISE\14.3\\auto_project_1.ipf'.
+Project: E:\ISE\14.3\\auto_project.ipf created.
+// *** BATCH CMD : setMode -bs
+GUI --- Auto connect to cable...
+// *** BATCH CMD : setCable -port auto
+INFO:iMPACT - Digilent Plugin: Plugin Version: 2.4.3
+INFO:iMPACT - Digilent Plugin: no JTAG device was found.
+AutoDetecting cable. Please wait.
+*** WARNING ***: When port is set to auto detect mode, cable speed is set todefault 6 MHz regardless of explicit arguments supplied for setting the baudrates
+PROGRESS_START - Starting Operation.
+Connecting to cable (Usb Port - USB21).
+Checking cable driver.
+ Driver file xusb_xp2.sys found.
+ Driver version: src=2301, dest=2301.
+ Driver windrvr6.sys version = 10.2.1.0. WinDriver v10.21 Jungo (c) 1997 - 2010 Build Date: Aug 31 2010 X86 32bit SYS14:35:41, version = 1021.
+ Cable PID = 0008.
+ Max current requested during enumeration is 300 mA.
+Type = 0x0005.
+ Cable Type = 3, Revision = 0.
+ Setting cable speed to 6 MHz.
+Cable connection established.
+Firmware version = 2401.
+File version of E:/ISE/14.3/ISE_DS/ISE/data/xusb_xp2.hex = 2401.
+Firmware hex file version = 2401.
+PLD file version = 200Dh.
+ PLD version = 200Dh.
+PROGRESS_END - End Operation.
+Elapsed time =      2 sec.
+Type = 0x0005.
+ESN option: 0000135CE5A601.
+Attempting to identify devices in the boundary-scan chain configuration...
+INFO:iMPACT - Current time: 28.4.2013 14:39:15
+// *** BATCH CMD : Identify -inferir 
+PROGRESS_START - Starting Operation.
+Identifying chain contents...'0': : Manufacturer's ID = Xilinx xc6slx25, Version : 0
+INFO:iMPACT:1777 - 
+   Reading E:/ISE/14.3/ISE_DS/ISE/spartan6/data/xc6slx25.bsd...
+INFO:iMPACT:501 - '1': Added Device xc6slx25 successfully.
+----------------------------------------------------------------------
+done.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+// *** BATCH CMD : identifyMPM 
+// *** BATCH CMD : assignFile -p 1 -file "C:/controller/top.bit"
+'1': Loading file 'C:/controller/top.bit' ...
+done.
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+UserID read from the bitstream file = 0xFFFFFFFF.
+Data width read from the bitstream file = 1.
+INFO:iMPACT:501 - '1': Added Device xc6slx25 successfully.
+----------------------------------------------------------------------
+Selected part: AT45DB081D
+// *** BATCH CMD : attachflash -position 1 -spi "AT45DB081D"
+// *** BATCH CMD : assignfiletoattachedflash -position 1 -file"C:/controller/ise_prom.mcs"
+// *** BATCH CMD : attachflash -position 1 -spi "AT45DB081D"
+INFO:iMPACT - Current time: 28.4.2013 14:39:42
+// *** BATCH CMD : Program -p 1 -dataWidth 1 -spionly -e -v -loadfpga 
+PROGRESS_START - Starting Operation.
+Maximum TCK operating frequency for this device chain: 25000000.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': SPI access core not detected. SPI access core will be downloaded to thedevice to enable operations.
+INFO:iMPACT - Downloading core file   E:/ISE/14.3/ISE_DS/ISE/spartan6/data/xc6slx25_spi.cor.
+'1': Downloading core...
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+'1': Reading status register contents...
+INFO:iMPACT:2219 - Status register values:
+INFO:iMPACT - 0011 1100 1110 1100 
+INFO:iMPACT:2492 - '1': Completed downloading core to device.
+INFO:iMPACT - Address 0x00000000 is in sector 0.
+INFO:iMPACT - Start block = 0 for address 0x00000000.
+INFO:iMPACT - Address 0x000C3AB5 is not located at the start of a sector   boundary. The whole sector will be erased.
+INFO:iMPACT - Address 0x000C3AB5 is in sector 12.
+INFO:iMPACT - End block = 383 for address 0x000C3AB5.
+INFO:iMPACT - Address 0x00000000 is in sector 0.
+INFO:iMPACT - Address 0x000C3AB5 is not located at the start of a sector   boundary. The whole sector will be erased.
+INFO:iMPACT - Address 0x000C3AB5 is in sector 12.
+INFO:iMPACT - Address 0x00000000 is in sector 0.
+INFO:iMPACT - Address 0x000C3AB5 is not located at the start of a sector   boundary. The whole sector will be erased.
+INFO:iMPACT - Address 0x000C3AB5 is in sector 12.
+INFO:iMPACT - Address 0x00000000 is in sector 0.
+INFO:iMPACT - Address 0x000C3AB5 is not located at the start of a sector   boundary. The whole sector will be erased.
+INFO:iMPACT - Address 0x000C3AB5 is in sector 12.
+INFO:iMPACT - Address 0x00000000 is in sector 0.
+INFO:iMPACT - Address 0x000C3AB5 is not located at the start of a sector   boundary. The whole sector will be erased.
+INFO:iMPACT - Address 0x000C3AB5 is in sector 12.
+'1': Erasing device...
+done.
+'1': Erasure completed successfully.
+INFO:iMPACT - Address 0x00000000 is in sector 0.
+INFO:iMPACT - Address 0x000C3AB5 is not located at the start of a sector   boundary. The whole sector will be erased.
+INFO:iMPACT - Address 0x000C3AB5 is in sector 12.
+INFO:iMPACT - Address 0x00000000 is in sector 0.
+INFO:iMPACT - Address 0x000C3AB5 is not located at the start of a sector   boundary. The whole sector will be erased.
+INFO:iMPACT - Address 0x000C3AB5 is in sector 12.
+INFO:iMPACT - Address 0x00000000 is in sector 0.
+INFO:iMPACT - Address 0x000C3AB5 is not located at the start of a sector   boundary. The whole sector will be erased.
+INFO:iMPACT - Address 0x000C3AB5 is in sector 12.
+INFO:iMPACT - Address 0x00000000 is in sector 0.
+INFO:iMPACT - Address 0x000C3AB5 is not located at the start of a sector   boundary. The whole sector will be erased.
+INFO:iMPACT - Address 0x000C3AB5 is in sector 12.
+INFO:iMPACT - Address 0x00000000 is in page 0.
+INFO:iMPACT - Address 0x000C3AB5 is in page 3035.
+'1': Programming Flash...done.
+'1': Programming completed successfully.
+INFO:iMPACT - Address 0x00000000 is in page 0.
+INFO:iMPACT - Address 0x000C3AB5 is in page 3035.
+'1': Verifying device...done.
+'1': Verification completed successfully.
+'1': Programmed successfully.
+INFO:iMPACT - '1': Flash was programmed successfully.
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =    495 sec.
+Project: 'E:\ISE\14.3\\auto_project.ipf' created.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : saveProjectFile -file "E:\ISE\14.3\\auto_project.ipf"
+// *** BATCH CMD : setMode -bs
+INFO:iMPACT - Launching WebTalk, please refer to the webtalk log at   E:\ISE\14.3\webtalk.log for details.
+INFO:iMPACT - Running wbtc successfully.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff

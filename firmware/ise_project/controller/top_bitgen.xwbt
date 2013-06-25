@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\controller\top.ncd
+OUTFILE=C:\controller\top.bit
+FAMILY=Spartan6
+PART=xc6slx25-2csg324
+WORKINGDIR=C:\controller
+LICENSE=ISE
+USER_INFO=205488958_0_0_227

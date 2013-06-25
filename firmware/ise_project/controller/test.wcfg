@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/controller/tb_top_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="numeric_std" />
+            <top_module name="pck_buff" />
+            <top_module name="pck_controller" />
+            <top_module name="pck_dac_controller" />
+            <top_module name="pck_digipot_controller" />
+            <top_module name="pck_ft245sync" />
+            <top_module name="pck_myhdl_07" />
+            <top_module name="std_logic_1164" />
+            <top_module name="tb_top" />
+            <top_module name="textio" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="59" />
+   <wvobject fp_name="/tb_top/load" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">load</obj_property>
+      <obj_property name="ObjectShortName">load</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/la2oe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">la2oe</obj_property>
+      <obj_property name="ObjectShortName">la2oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/lfsr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">lfsr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">lfsr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/clkdacout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkdacout</obj_property>
+      <obj_property name="ObjectShortName">clkdacout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/adc2relatt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adc2relatt</obj_property>
+      <obj_property name="ObjectShortName">adc2relatt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/adc1relco" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adc1relco</obj_property>
+      <obj_property name="ObjectShortName">adc1relco</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/led1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">led1</obj_property>
+      <obj_property name="ObjectShortName">led1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/led0" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">led0</obj_property>
+      <obj_property name="ObjectShortName">led0</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/adc2pd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adc2pd</obj_property>
+      <obj_property name="ObjectShortName">adc2pd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/adc1relatt" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adc1relatt</obj_property>
+      <obj_property name="ObjectShortName">adc1relatt</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/la2dir" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">la2dir</obj_property>
+      <obj_property name="ObjectShortName">la2dir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/scl_d" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">scl_d</obj_property>
+      <obj_property name="ObjectShortName">scl_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/adc1data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adc1data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adc1data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/rd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rd</obj_property>
+      <obj_property name="ObjectShortName">rd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/sda_d" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sda_d</obj_property>
+      <obj_property name="ObjectShortName">sda_d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/adc1pd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adc1pd</obj_property>
+      <obj_property name="ObjectShortName">adc1pd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/adbus_drv" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adbus_drv[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adbus_drv[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/siwu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">siwu</obj_property>
+      <obj_property name="ObjectShortName">siwu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/adc2relco" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">adc2relco</obj_property>
+      <obj_property name="ObjectShortName">adc2relco</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/la1dir" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">la1dir</obj_property>
+      <obj_property name="ObjectShortName">la1dir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/serialout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">serialout</obj_property>
+      <obj_property name="ObjectShortName">serialout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/clockftdi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clockftdi</obj_property>
+      <obj_property name="ObjectShortName">clockftdi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/adbus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adbus[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adbus[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/txe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txe</obj_property>
+      <obj_property name="ObjectShortName">txe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/wr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/dataout" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dataout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataout[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/logicanalyzer" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">logicanalyzer[15:0]</obj_property>
+      <obj_property name="ObjectShortName">logicanalyzer[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/scl_dpull" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">scl_dpull</obj_property>
+      <obj_property name="ObjectShortName">scl_dpull</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/ldac" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ldac</obj_property>
+      <obj_property name="ObjectShortName">ldac</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/clockftdi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clockftdi</obj_property>
+      <obj_property name="ObjectShortName">clockftdi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/oe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">oe</obj_property>
+      <obj_property name="ObjectShortName">oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/rxf" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rxf</obj_property>
+      <obj_property name="ObjectShortName">rxf</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/adc2data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">adc2data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">adc2data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/sda_dpull" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sda_dpull</obj_property>
+      <obj_property name="ObjectShortName">sda_dpull</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/la1oe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">la1oe</obj_property>
+      <obj_property name="ObjectShortName">la1oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/sda" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sda</obj_property>
+      <obj_property name="ObjectShortName">sda</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/scl" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">scl</obj_property>
+      <obj_property name="ObjectShortName">scl</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[0:8]</obj_property>
+      <obj_property name="ObjectShortName">data[0:8]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/datain" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datain[31:0]</obj_property>
+      <obj_property name="ObjectShortName">datain[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/bufferready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bufferready</obj_property>
+      <obj_property name="ObjectShortName">bufferready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/outputinputready" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">outputinputready</obj_property>
+      <obj_property name="ObjectShortName">outputinputready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/allowwriteoverlap" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">allowwriteoverlap</obj_property>
+      <obj_property name="ObjectShortName">allowwriteoverlap</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/datadirection" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">datadirection</obj_property>
+      <obj_property name="ObjectShortName">datadirection</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/clkdecimator" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkdecimator</obj_property>
+      <obj_property name="ObjectShortName">clkdecimator</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/clkftdi" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clkftdi</obj_property>
+      <obj_property name="ObjectShortName">clkftdi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/bram_address_bottom" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bram_address_bottom[10:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_address_bottom[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/overlapped" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">overlapped</obj_property>
+      <obj_property name="ObjectShortName">overlapped</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/alreadyread" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alreadyread</obj_property>
+      <obj_property name="ObjectShortName">alreadyread</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/bufferready_int" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bufferready_int</obj_property>
+      <obj_property name="ObjectShortName">bufferready_int</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/clken" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clken</obj_property>
+      <obj_property name="ObjectShortName">clken</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/currentbramoverlapboundary" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">currentbramoverlapboundary[10:0]</obj_property>
+      <obj_property name="ObjectShortName">currentbramoverlapboundary[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/holdfullempty" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">holdfullempty[3:0]</obj_property>
+      <obj_property name="ObjectShortName">holdfullempty[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/bram_address_top" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bram_address_top[10:0]</obj_property>
+      <obj_property name="ObjectShortName">bram_address_top[10:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_top/top/buff/fpga_mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fpga_mem[0:2047]</obj_property>
+      <obj_property name="ObjectShortName">fpga_mem[0:2047]</obj_property>
+   </wvobject>
+</wave_config>
