@@ -1,6 +1,6 @@
 # Hacking
 
-Do whatever you like, but try keep these clauses:
+Do whatever you like, but try to keep these clauses:
 
 * 1, Keep code mupltiplatform (test at least on 2 independent platforms)
 

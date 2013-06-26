@@ -21,7 +21,6 @@ Although hadware was implemented it is not thoroughly tested, especially analog 
 * FPGA programming and 3.3V logic interface and FT245 Sync interface (USB 2.0 speed)
 
 ### TODO:
-* Fix short of internal layers in digital board design
 * Direct USB programming of FPGA flash - need to use JTAG and Xilinx USB Platform Cable for programming
 
 ## Analog (DSO module) board:
