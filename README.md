@@ -15,6 +15,9 @@ Although hadware was implemented it is not thoroughly tested, especially analog 
 ## Software
 [Screenshot gallery](http://imgur.com/a/RICwH#0)
 
+#Schematics
+[Link to PDF](https://www.dropbox.com/sh/cy4ldah24slzdpa/zRzbHfkyo1)
+
 #Details:
 ## FPGA board:
 ### What works:
